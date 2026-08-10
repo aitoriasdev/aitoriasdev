@@ -11,7 +11,7 @@
 
   <!-- Quick Links / Badges -->
   <p align="center">
-    <a href="https://aitorias.dev"><img src="https://img.shields.io/badge/Portfolio-aitorias.dev-8A9A86?style=for-the-badge&logo=astro&logoColor=white" alt="Portfolio" /></a>
+    <a href="https://aitoriasdev.github.io"><img src="https://img.shields.io/badge/Portfolio-aitorias.dev-8A9A86?style=for-the-badge&logo=astro&logoColor=white" alt="Portfolio" /></a>
     <a href="https://linkedin.com/in/aitoriasdev"><img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   </p>
 
