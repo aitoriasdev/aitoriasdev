@@ -37,15 +37,9 @@
 
 ### GitHub Analytics
 
-<div align="center">
-  <!-- GitHub Stats Extended Cards -->
-  <a href="https://github.com/aitoriasdev">
-    <img height="165" src="https://github-stats-extended.vercel.app/api?username=aitoriasdev&show_icons=true&theme=tokyonight&hide_border=true&bg_color=16181D&title_color=8A9A86&icon_color=DDA7A5&text_color=9CA3AF" alt="Aitor's GitHub Stats" />
-  </a>
-  <a href="https://github.com/aitoriasdev">
-    <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=aitoriasdev&layout=compact&theme=tokyonight&hide_border=true&bg_color=16181D&title_color=8A9A86&text_color=9CA3AF&hide=html,css" alt="Top Languages" />
-  </a>
-</div>
+![Stats](./profile/stats.svg)
+![Top Languages](./profile/top-langs.svg)
+![Pinned](./profile/pin-stats-organization-github-readme-stats.svg)
 
 <br />
 
