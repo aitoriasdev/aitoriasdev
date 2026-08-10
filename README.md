@@ -29,7 +29,7 @@
 
 ### Highlights & Current Focus
 
-- **Portfolio:** Built with [Astro v5](https://astro.build) and [Tailwind CSS v4](https://tailwindcss.com) at [aitorias.dev](https://aitorias.dev)
+- **Portfolio:** Built with [Astro v5](https://astro.build) and [Tailwind CSS v4](https://tailwindcss.com) at [aitorias.github.io](https://aitoriasdev.github.io)
 - **Current Focus:** Type-safe web architectures, modern Atomic Design systems, and performance optimization
 - **Tooling:** Automated CI/CD pipelines, high-performance linting with [Oxc](https://oxc.rs)
 
