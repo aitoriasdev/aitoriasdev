@@ -37,9 +37,15 @@
 
 ### GitHub Analytics
 
-![Stats](./profile/stats.svg)
-![Top Languages](./profile/top-langs.svg)
-![Pinned](./profile/pin-stats-organization-github-readme-stats.svg)
+<div align="center">
+  <!-- Generated statically via GitHub Actions -->
+  <a href="https://github.com/aitoriasdev">
+    <img height="165" src="./profile/stats.svg" alt="Aitor's GitHub Stats" />
+  </a>
+  <a href="https://github.com/aitoriasdev">
+    <img height="165" src="./profile/top-langs.svg" alt="Top Languages" />
+  </a>
+</div>
 
 <br />
 
