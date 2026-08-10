@@ -56,5 +56,5 @@
 ---
 
 <div align="center">
-  <sub>Designed to match the <strong>aitorias.dev</strong> Japanese Pastel Theme.</sub>
+  <sub>Designed to match the <strong>aitoriasdev.github.io</strong> Japanese Pastel Theme.</sub>
 </div>
