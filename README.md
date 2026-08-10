@@ -51,9 +51,7 @@
 
 <div align="center">
   <!-- Streak Stats Card -->
-  <a href="https://github.com/aitoriasdev">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=aitoriasdev&theme=tokyonight&background=16181D&border=16181D&stroke=8A9A86&ring=8A9A86&fire=DDA7A5&currStreakLabel=8A9A86" alt="GitHub Streak" />
-  </a>
+  <a href="https://git.io/streak-stats"><img src="./profile/streak.svg" alt="GitHub Streak" /></a>
 </div>
 
 ---
