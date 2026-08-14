@@ -2,7 +2,7 @@
 
   <!-- Dynamic Header Badge -->
   <a href="https://aitorias.is-a.dev">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=8A9A86&center=true&vCenter=true&width=500&lines=Hi+%F0%9F%90%B5%2C+I'm+Aitor;Front-End+Developer;Crafting+Modern+Web+Experiences;Astro+%2B+TypeScript+%2B+Tailwind" alt="Typing Header" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=8A9A86&center=true&vCenter=true&width=550&lines=Hi%2C+I'm+Aitor;Front-End+Developer;Crafting+Modern+Web+Experiences;Astro+%2B+React+%2B+TypeScript+%2B+Tailwind" alt="Typing Header" />
   </a>
 
   <p align="center">
@@ -38,7 +38,6 @@
 ### GitHub Analytics
 
 <div align="center">
-  <!-- Generated statically via GitHub Actions -->
   <a href="https://github.com/aitoriasdev">
     <img height="165" src="./profile/stats.svg" alt="Aitor's GitHub Stats" />
   </a>
