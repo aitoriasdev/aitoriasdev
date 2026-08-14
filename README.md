@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- Dynamic Header Badge -->
-  <a href="https://aitorias.dev">
+  <a href="https://aitorias.is-a.dev">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=8A9A86&center=true&vCenter=true&width=550&lines=Hi%2C+I'm+Aitor;Front-End+Developer;Crafting+Modern+Web+Experiences;Astro+%2B+React+%2B+TypeScript+%2B+Tailwind" alt="Typing Header" />
   </a>
 
@@ -11,7 +11,7 @@
 
   <!-- Quick Links / Badges -->
   <p align="center">
-    <a href="https://aitoriasdev.github.io"><img src="https://img.shields.io/badge/Portfolio-aitorias.dev-8A9A86?style=for-the-badge&logo=astro&logoColor=white" alt="Portfolio" /></a>
+    <a href="https://aitorias.is-a.dev"><img src="https://img.shields.io/badge/Portfolio-aitorias.is--a.dev-8A9A86?style=for-the-badge&logo=astro&logoColor=white" alt="Portfolio" /></a>
     <a href="https://linkedin.com/in/aitoriasdev"><img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   </p>
 
@@ -29,9 +29,9 @@
 
 ### Highlights & Current Focus
 
-- **Portfolio:** Built with [Astro v5](https://astro.build) and [Tailwind CSS v4](https://tailwindcss.com) at [aitorias.github.io](https://aitoriasdev.github.io)
-- **Current Focus:** Type-safe web architectures, modern Atomic Design systems, and performance optimization
-- **Tooling:** Automated CI/CD pipelines, high-performance linting with [Oxc](https://oxc.rs)
+- **Portfolio:** Built with [Astro v7](https://astro.build), [Tailwind CSS v4](https://tailwindcss.com), and i18n at [aitorias.is-a.dev](https://aitorias.is-a.dev)
+- **Current Focus:** Type-safe web architectures, modern i18n workflows, performance optimization, and custom GA4 web worker tracking via Partytown
+- **Tooling:** Automated CI/CD pipelines, high-performance linting & formatting with [Oxc](https://oxc.rs)
 
 ---
 
@@ -55,6 +55,15 @@
 
 ---
 
+## Version History
+
+| Readme Version | Description | Author | Date |
+| :--- | :--- | :--- | :--- |
+| `v1.0.0` | Initial profile release with Japanese Pastel theme design. | Aitor de Diego | 2026-08-10 |
+| `v1.1.0` | Updated domain links to `aitorias.is-a.dev`, stack updates (Astro v7, i18n, Partytown), and LinkedIn link. | Aitor de Diego | 2026-08-14 |
+
+---
+
 <div align="center">
-  <sub>Designed to match the <strong>aitoriasdev.github.io</strong> Japanese Pastel Theme.</sub>
+  <sub>Designed to match the <strong>aitorias.is-a.dev</strong> Japanese Pastel Theme.</sub>
 </div>
