@@ -12,7 +12,7 @@
   <!-- Quick Links / Badges -->
   <p align="center">
     <a href="https://aitorias.is-a.dev"><img src="https://img.shields.io/badge/Portfolio-aitorias.is--a.dev-8A9A86?style=for-the-badge&logo=astro&logoColor=white" alt="Portfolio" /></a>
-    <a href="https://linkedin.com/in/aitoriasdev"><img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    <a href="https://linkedin.com/in/aitordediego"><img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   </p>
 
 </div>
