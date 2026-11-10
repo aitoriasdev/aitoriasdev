@@ -55,21 +55,21 @@
 <div align="center">
   <a href="https://github.com/aitoriasdev">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg" />
-      <img height="165" src="./profile/stats-light.svg" alt="Aitor's GitHub stats: commits, pull requests and repositories contributed to in the last year" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aitoriasdev/aitoriasdev/output/stats-dark.svg" />
+      <img height="165" src="https://raw.githubusercontent.com/aitoriasdev/aitoriasdev/output/stats-light.svg" alt="Aitor's GitHub stats: commits, pull requests and repositories contributed to in the last year" />
     </picture>
   </a>
   <a href="https://github.com/aitoriasdev">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg" />
-      <img height="165" src="./profile/top-langs-light.svg" alt="Most used languages across Aitor's public repositories" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aitoriasdev/aitoriasdev/output/top-langs-dark.svg" />
+      <img height="165" src="https://raw.githubusercontent.com/aitoriasdev/aitoriasdev/output/top-langs-light.svg" alt="Most used languages across Aitor's public repositories" />
     </picture>
   </a>
   <br />
   <a href="https://github.com/aitoriasdev">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./profile/streak-dark.svg" />
-      <img src="./profile/streak-light.svg" alt="Aitor's GitHub contribution streak: total contributions, current streak and longest streak" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/aitoriasdev/aitoriasdev/output/streak-dark.svg" />
+      <img src="https://raw.githubusercontent.com/aitoriasdev/aitoriasdev/output/streak-light.svg" alt="Aitor's GitHub contribution streak: total contributions, current streak and longest streak" />
     </picture>
   </a>
 </div>
