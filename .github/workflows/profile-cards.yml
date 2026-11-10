@@ -1,0 +1,106 @@
+name: Update profile cards
+
+on:
+  schedule:
+    - cron: "0 3 * * *" # Daily at 03:00 UTC
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/profile-cards.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: profile-cards
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+# Palette mirrors aitorias.is-a.dev (src/styles/global.css)
+env:
+  STATS_LIGHT: title_color=2d5a27&icon_color=2d5a27&text_color=1f2228&bg_color=fbf9f5&border_color=e2dad0
+  STATS_DARK: title_color=a4d09c&icon_color=a4d09c&text_color=f3f5f8&bg_color=121418&border_color=2e3440
+  STREAK_LIGHT: background=fbf9f5&border=e2dad0&stroke=e2dad0&ring=2d5a27&fire=c87a78&currStreakNum=1f2228&sideNums=1f2228&currStreakLabel=2d5a27&sideLabels=1f2228&dates=4c535e
+  STREAK_DARK: background=121418&border=2e3440&stroke=2e3440&ring=a4d09c&fire=c87a78&currStreakNum=f3f5f8&sideNums=f3f5f8&currStreakLabel=a4d09c&sideLabels=f3f5f8&dates=cbd5e1
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Cards are published to the orphan `output` branch (not main), so main
+      # can stay protected and free of bot commits. README loads them via
+      # raw.githubusercontent.com/<owner>/<repo>/output/<card>.svg
+      - name: Prepare output directory
+        run: mkdir -p output
+
+      # --- Stats card -------------------------------------------------------
+      - name: Stats (light)
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&hide=stars,issues&${{ env.STATS_LIGHT }}
+          path: output/stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+
+      - name: Stats (dark)
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&hide=stars,issues&${{ env.STATS_DARK }}
+          path: output/stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+
+      # --- Top languages card -----------------------------------------------
+      # awaken-theme is a Shopify (Liquid) theme fork that would otherwise dominate.
+      - name: Top languages (light)
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=5&exclude_repo=awaken-theme&${{ env.STATS_LIGHT }}
+          path: output/top-langs-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+
+      - name: Top languages (dark)
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=5&exclude_repo=awaken-theme&${{ env.STATS_DARK }}
+          path: output/top-langs-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: "true"
+
+      # --- Streak card ------------------------------------------------------
+      - name: Streak (light)
+        uses: DenverCoder1/github-readme-streak-stats@125aaaf200620410446ebfa51897fca3607e04fd # v1.8.2
+        with:
+          options: user=${{ github.repository_owner }}&disable_animations=true&${{ env.STREAK_LIGHT }}
+          path: output/streak-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Streak (dark)
+        uses: DenverCoder1/github-readme-streak-stats@125aaaf200620410446ebfa51897fca3607e04fd # v1.8.2
+        with:
+          options: user=${{ github.repository_owner }}&disable_animations=true&${{ env.STREAK_DARK }}
+          path: output/streak-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # --- Publish to the output branch (single commit, no history) ---------
+      - name: Publish cards
+        working-directory: output
+        env:
+          REMOTE: https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+        run: |
+          git init -q -b output
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Update profile cards"
+          if git fetch -q --depth=1 "$REMOTE" output && git diff --quiet FETCH_HEAD HEAD; then
+            echo "No card changes."
+            exit 0
+          fi
+          git push -q --force "$REMOTE" HEAD:output
