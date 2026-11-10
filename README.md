@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Aitor de Diego</h1>
+<h1 align="center">Hi, I'm Aitor</h1>
 
 <div align="center">
 
@@ -11,7 +11,7 @@
 
   <p>
     <a href="https://aitorias.is-a.dev"><img src="https://img.shields.io/badge/Portfolio-aitorias.is--a.dev-2D5A27?style=for-the-badge&logo=astro&logoColor=white" alt="Portfolio: aitorias.is-a.dev" /></a>
-    <a href="https://linkedin.com/in/aitordediego"><img src="https://img.shields.io/badge/LinkedIn-aitordediego-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn: aitordediego" /></a>
+    <a href="https://linkedin.com/in/aitordediego"><img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile" /></a>
     <img src="https://img.shields.io/badge/Open_to_work-Ireland-C87A78?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Open to work, based in Ireland" />
   </p>
 
@@ -22,7 +22,7 @@
 - I build **accessible, fast web applications** with a focus on type safety and clean, maintainable architecture.
 - Lately I've been working on **healthcare analytics**: a React + Supabase product for Irish GP practices, shipped as a web app and an Electron desktop app.
 - I care about the details: **security headers and CSP**, i18n, Core Web Vitals, and a strict lint/format/test pipeline in CI.
-- Based in **Mallow, Ireland** 🇮🇪
+- Spanish 🇪🇸 from **Barcelona**, living in **Mallow, Ireland** since November 2025.
 
 ## Featured projects
 
