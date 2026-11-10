@@ -1,69 +1,75 @@
+<h1 align="center">Hi, I'm Aitor de Diego</h1>
+
 <div align="center">
 
-  <!-- Dynamic Header Badge -->
   <a href="https://aitorias.is-a.dev">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=8A9A86&center=true&vCenter=true&width=550&lines=Hi%2C+I'm+Aitor;Front-End+Developer;Crafting+Modern+Web+Experiences;Astro+%2B+React+%2B+TypeScript+%2B+Tailwind" alt="Typing Header" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=A4D09C&center=true&vCenter=true&width=550&lines=Front-End+Developer;Accessible%2C+high-performance+web+apps;Astro+%2B+React+%2B+TypeScript+%2B+Tailwind" />
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=2D5A27&center=true&vCenter=true&width=550&lines=Front-End+Developer;Accessible%2C+high-performance+web+apps;Astro+%2B+React+%2B+TypeScript+%2B+Tailwind" alt="Front-End Developer building accessible, high-performance web apps with Astro, React, TypeScript and Tailwind" />
+    </picture>
   </a>
 
-  <p align="center">
-    <strong>Specialized in building accessible, high-performance web applications with clean code architectures.</strong>
-  </p>
-
-  <!-- Quick Links / Badges -->
-  <p align="center">
-    <a href="https://aitorias.is-a.dev"><img src="https://img.shields.io/badge/Portfolio-aitorias.is--a.dev-8A9A86?style=for-the-badge&logo=astro&logoColor=white" alt="Portfolio" /></a>
-    <a href="https://linkedin.com/in/aitordediego"><img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <p>
+    <a href="https://aitorias.is-a.dev"><img src="https://img.shields.io/badge/Portfolio-aitorias.is--a.dev-2D5A27?style=for-the-badge&logo=astro&logoColor=white" alt="Portfolio: aitorias.is-a.dev" /></a>
+    <a href="https://linkedin.com/in/aitordediego"><img src="https://img.shields.io/badge/LinkedIn-aitordediego-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn: aitordediego" /></a>
+    <img src="https://img.shields.io/badge/Open_to_work-Ireland-C87A78?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Open to work, based in Ireland" />
   </p>
 
 </div>
 
----
+## About me
 
-### Core Tech Stack
+- I build **accessible, fast web applications** with a focus on type safety and clean, maintainable architecture.
+- Lately I've been working on **healthcare analytics**: a React + Supabase product for Irish GP practices, shipped as a web app and an Electron desktop app.
+- I care about the details: **security headers and CSP**, i18n, Core Web Vitals, and a strict lint/format/test pipeline in CI.
+- Based in **Mallow, Ireland** 🇮🇪
+
+## Featured projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>CDM Optimiser</h3>
+      <p>Healthcare analytics for Irish GP practices. It finds patients who are eligible for the Chronic Disease Management programme but not yet enrolled, and turns that gap into a prioritised recall workflow with revenue projections.</p>
+      <p><sub><b>Role:</b> Lead developer</sub><br />
+      <sub><b>Stack:</b> React · TypeScript · Vite · TanStack Query · Supabase · Tailwind · Electron · Vitest · Playwright</sub></p>
+      <p><a href="https://cdm-optimiser.netlify.app">Live</a> · <a href="https://github.com/CDM-Optimiser/cdm-optimiser">Code</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>Portfolio</h3>
+      <p>My personal site: a multilingual Astro site with a Japanese-pastel design system, light/dark themes and GA4 offloaded to a web worker with Partytown.</p>
+      <p><sub><b>Stack:</b> Astro v7 · Tailwind CSS v4 · TypeScript · i18n · Partytown · Oxc</sub></p>
+      <p><a href="https://aitorias.is-a.dev">Live</a> · <a href="https://github.com/aitoriasdev/aitoriasdev.github.io">Code</a></p>
+    </td>
+  </tr>
+</table>
+
+## Tech stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,astro,react,tailwind,html,css,git,github,vscode,pnpm,vite&perline=6" alt="Tech Stack Icons" />
+  <img src="https://skillicons.dev/icons?i=ts,js,react,astro,tailwind,vite,supabase,electron,html,css,git&perline=11" alt="TypeScript, JavaScript, React, Astro, Tailwind CSS, Vite, Supabase, Electron, HTML, CSS, Git" />
 </div>
 
----
-
-### Highlights & Current Focus
-
-- **Portfolio:** Built with [Astro v7](https://astro.build), [Tailwind CSS v4](https://tailwindcss.com), and i18n at [aitorias.is-a.dev](https://aitorias.is-a.dev)
-- **Current Focus:** Type-safe web architectures, modern i18n workflows, performance optimization, and custom GA4 web worker tracking via Partytown
-- **Tooling:** Automated CI/CD pipelines, high-performance linting & formatting with [Oxc](https://oxc.rs)
-
----
-
-### GitHub Analytics
+## GitHub activity
 
 <div align="center">
   <a href="https://github.com/aitoriasdev">
-    <img height="165" src="./profile/stats.svg" alt="Aitor's GitHub Stats" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./profile/stats-dark.svg" />
+      <img height="165" src="./profile/stats-light.svg" alt="Aitor's GitHub stats: commits, pull requests and repositories contributed to in the last year" />
+    </picture>
   </a>
   <a href="https://github.com/aitoriasdev">
-    <img height="165" src="./profile/top-langs.svg" alt="Top Languages" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs-dark.svg" />
+      <img height="165" src="./profile/top-langs-light.svg" alt="Most used languages across Aitor's public repositories" />
+    </picture>
   </a>
-</div>
-
-<br />
-
-<div align="center">
-  <!-- Streak Stats Card -->
-  <a href="https://git.io/streak-stats"><img src="./profile/streak.svg" alt="GitHub Streak" /></a>
-</div>
-
----
-
-## Version History
-
-| Readme Version | Description | Author | Date |
-| :--- | :--- | :--- | :--- |
-| `v1.0.0` | Initial profile release with Japanese Pastel theme design. | Aitor de Diego | 2026-08-10 |
-| `v1.1.0` | Updated domain links to `aitorias.is-a.dev`, stack updates (Astro v7, i18n, Partytown), and LinkedIn link. | Aitor de Diego | 2026-08-14 |
-
----
-
-<div align="center">
-  <sub>Designed to match the <strong>aitorias.is-a.dev</strong> Japanese Pastel Theme.</sub>
+  <br />
+  <a href="https://github.com/aitoriasdev">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./profile/streak-dark.svg" />
+      <img src="./profile/streak-light.svg" alt="Aitor's GitHub contribution streak: total contributions, current streak and longest streak" />
+    </picture>
+  </a>
 </div>
